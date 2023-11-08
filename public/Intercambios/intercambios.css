@@ -1,0 +1,111 @@
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label,
+select,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.confirmation-container {
+    width: 370px;
+    margin-left: 1400px;
+    /* Empuja el contenedor hacia la derecha tanto como sea posible */
+    position: absolute;
+    margin-right: 20px;
+    top: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.button-confir {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-cancel {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hero-2 {
+    width: 600px;
+    max-height: 100vh;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drop-area {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#img-view {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px dashed #000000;
+    background: #f3f3f3;
+    background-position: center;
+    background-size: cover;
+    left: 5px;
+}
+
+#img-view i {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+#img-view span {
+    display: block;
+    font-size: 15px;
+    color: #777;
+    margin-top: 15px;
+}
+
+#confir {
+    font-size: 18px;
+}

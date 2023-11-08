@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.men{
+    background-color:#f7f7f7;
+}
+.imagentitulo{
+    background: url(/img/image/fondoregistro2.jpg);
+    height: 200px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 30%;
+    opacity: 0.89;
+}
+
+.cuadro {
+    display: block;
+    flex-wrap: wrap-reverse;
+    background-color: var(--primary-color);
+    margin: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px 0;
+     border-radius: 5px;
+}
+
+.til{
+    font-size:5.5rem;
+    padding: 15px;
+    padding-top: 46px;
+    padding-left: 298px;
+    color: #080808;
+}
+.tae{
+    width: 100%;
+    padding: 1px 1px;
+    flex-wrap: wrap-reverse;
+}
+.hea{
+    border-radius: 50px;
+    background: rgba(253, 138, 30, 0.315);
+}
+.h{
+    font-size: 25px;
+    text-align: center;
+    padding: 28px 45px;
+    font-weight: 750;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.d{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+.t{
+    padding: 28px 15px;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+button{
+    padding: 8px 15px;
+    font-weight: 750;
+    border-radius: 25px;
+}
+.d button:hover{
+    background:rgba(250, 85, 85, 0.63);
+    color: white;
+}
+.bod .t:hover{
+    background:rgb(255, 169, 72);
+    
+}
+.tae .h{
+    flex-wrap: wrap-reverse;
+   background-color: rgba(189, 183, 107, 0.644);
+}
+
